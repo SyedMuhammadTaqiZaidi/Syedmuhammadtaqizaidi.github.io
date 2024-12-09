@@ -1,0 +1,30 @@
+h1 {
+    font: 300 36px 'Lora', serif; 
+    color: transparent; 
+    letter-spacing: 1px; 
+    text-transform: capitalize; 
+    background: linear-gradient(45deg, #ff6347, #f1c40f); 
+    -webkit-background-clip: text;
+}
+
+h1 span::first-letter {
+    font: bold 90px 'Dancing Script', cursive; 
+    color: #ff6347; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.5);
+}
+
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+h2 { font-family: 'Lora', serif; font-size: 40px; color: #ffe23e; }
+
+
+header.theme-dark { background-color: #f45752 }
+header.theme-dark h1 span.highlight { color: var(--red-900) }
+header.theme-dark .container-btn a.btn:nth-child(2):link,
+header.theme-dark .container-btn a.btn:nth-child(2):visited { color: var(--white-000) }
+
+header.theme-dark h2 { color: #ffe23e}
+
+footer.theme-dark   { background-color: #f45752 }
